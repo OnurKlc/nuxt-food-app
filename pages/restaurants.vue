@@ -1,20 +1,18 @@
 <template>
-  <main class="container">
-    <AppHeader />
+  <main class="container restaurant">
+    <h1>Restaurants</h1>
     <AppRestaurantInfo />
   </main>
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader'
 import AppRestaurantInfo from '@/components/AppRestaurantInfo'
 
 export default {
   components: {
-    AppHeader,
     AppRestaurantInfo,
   },
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

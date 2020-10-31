@@ -111,6 +111,7 @@ export default {
         combinedPrice: this.combinedPrice,
       }
       this.cardSubmitted = true
+      this.$store.commit('addToCart', formOutput)
     },
   },
 }
